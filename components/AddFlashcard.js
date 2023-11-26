@@ -32,7 +32,6 @@ const AddFlashcard = ({ onAdd, onClose }) => {
       return;
     }
 
-    // onAdd(term, definition);
     onAdd({ term: term || "", definition, image });
 
     setTerm("");
